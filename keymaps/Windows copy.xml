@@ -1,0 +1,37 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="Dart.NewDartFile">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="EditorDecreaseFontSize">
+    <mouse-shortcut keystroke="control button142" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <mouse-shortcut keystroke="control button143" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+    <mouse-shortcut keystroke="control button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="StringManipulation.ToCamelCase">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="StringManipulation.ToPascalCase">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="StringManipulation.ToSnakeCase">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="UpdateRunningApplication" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+</keymap>

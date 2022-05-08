@@ -1,0 +1,10 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="PropertiesComponent">
+        <property name="android.sdk.path" value="C:/sdk/android/API32" />
+        <property name="last_opened_file_path" value="C:/flutter/surf/places" />
+      </component>
+    </defaultProject>
+  </component>
+</application>
