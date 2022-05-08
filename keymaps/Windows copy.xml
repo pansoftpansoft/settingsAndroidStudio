@@ -18,7 +18,6 @@
     <mouse-shortcut keystroke="button2" />
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
-  <action id="Replace" />
   <action id="StringManipulation.ToCamelCase">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
