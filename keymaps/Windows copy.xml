@@ -1,4 +1,7 @@
 <keymap version="1" name="Windows copy" parent="$default">
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl alt up" />
