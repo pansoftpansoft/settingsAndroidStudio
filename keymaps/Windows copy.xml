@@ -38,9 +38,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
   <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
-    <keyboard-shortcut first-keystroke="shift ctrl l" />
+    <keyboard-shortcut first-keystroke="alt l" />
   </action>
   <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
-    <keyboard-shortcut first-keystroke="shift ctrl u" />
+    <keyboard-shortcut first-keystroke="alt u" />
   </action>
 </keymap>
