@@ -21,6 +21,9 @@
     <mouse-shortcut keystroke="button2" />
     <keyboard-shortcut first-keystroke="ctrl alt down" />
   </action>
+  <action id="PinActiveTab">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
   <action id="StringManipulation.ToCamelCase">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
