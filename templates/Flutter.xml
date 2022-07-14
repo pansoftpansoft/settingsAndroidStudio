@@ -1,0 +1,8 @@
+<templateSet group="Flutter">
+  <template name="ace" value="import 'package:equatable/equatable.dart';&#10;&#10;abstract class $NAME$Event extends Equatable {&#10;  @override&#10;  List&lt;Object?&gt; get props =&gt; [];&#10;&#10;  const $NAME$Event();&#10;}&#10;&#10;class $NAME$Load extends $NAME$Event{&#10;&#10;}" description="Абстаракнтый класс эвентов для BLOC" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>
