@@ -1,6 +1,12 @@
 <templateSet group="Flutter">
-  <template name="ace" value="import 'package:equatable/equatable.dart';&#10;&#10;abstract class $FILENAME$ extends Equatable {&#10;  @override&#10;  List&lt;Object?&gt; get props =&gt; [];&#10;&#10;  const $FILENAME$();&#10;}&#10;&#10;class $FILENAME$Load extends $FILENAME$Event{&#10;&#10;}" description="Абстаракнтый класс эвентов для BLOC" toReformat="false" toShortenFQNames="true">
-    <variable name="FILENAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+  <template name="ace" value="import 'package:equatable/equatable.dart';&#10;&#10;abstract class $FILENAME$ extends Equatable {&#10;  @override&#10;  List&lt;Object?&gt; get props =&gt; [];&#10;&#10;  const $FILENAME$();&#10;}&#10;&#10;class $FILENAME$Load extends $FILENAME${&#10;&#10;}" description="Абстаракнтый класс эвентов для BLOC" toReformat="false" toShortenFQNames="true">
+    <variable name="FILENAME" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="fn" value="$failName$" description="Имя файла" toReformat="false" toShortenFQNames="true">
+    <variable name="failName" expression="capitalize(camelCase(fileNameWithoutExtension()))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
     </context>
